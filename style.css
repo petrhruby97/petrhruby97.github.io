@@ -1,0 +1,79 @@
+@font-face {
+  font-family: Custom;
+  src: url(grandnationallaserital.ttf);
+}
+
+body
+{
+	background-color: #F3FFF5;
+	border: 0px;
+	margin: 0px;
+}
+
+#header
+{
+//	background-color: #004225;
+	color: #D0F0C0;
+	background-color: #00A86B;
+	width: 100%;
+	margin: 0px;
+	padding-top: 1.3%;
+	padding-bottom: 1.7%;
+	font-weight: normal;
+	position: fixed;
+	top: 0;
+	transition: 0.2s;
+	z-index: 10;
+	font-family: Helvetica;
+}
+
+#htext
+{
+	//color: coral;
+	position: relative;
+	float: left;
+	top: 50%;
+	padding-top: 4%;
+	padding-left: 15%;
+	font-family: Custom, Magneto;
+	font-size: 5.1vw;
+}
+
+.content
+{
+	color: #300030;
+	font-family: Tahoma, Arial, sans-serif;
+	margin-top:27%;
+	width: 60%;
+	position: relative;
+	left: 18%;
+	text-align: justify;
+	z-index: 1;
+	padding-top: 0%;
+	//background-color: pink;
+}
+
+#petr
+{
+	width: 20%;
+	border-radius: 25%;
+	position: relative;
+	float: right;
+	right: 24%;
+	vertical-align: middle;
+}
+
+#hdesc
+{
+	font-size: 1.1vw;
+	position: absolute;
+	padding-top: 9%;
+	padding-left: 17%;
+}
+
+#header p
+{
+	color: #D0F0C0;
+	color: #F3FFF5;
+	
+}
