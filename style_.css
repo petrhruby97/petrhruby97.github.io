@@ -1,0 +1,165 @@
+@font-face {
+  font-family: Custom;
+  src: url(grandnationallaserital.ttf);
+}
+
+body
+{
+	background-color: #F3FFF5;
+	border: 0px;
+	margin: 0px;
+}
+
+#header
+{
+//	background-color: #004225;
+//	color: #D0F0C0;
+	background-color: #00A86B;
+	color: #BB0099;
+	width: 100%;
+	margin: 0px;
+	padding-top: 1.3%;
+	padding-bottom: 1.7%;
+	font-weight: normal;
+	position: fixed;
+	top: 0;
+	transition: 0.2s;
+	z-index: 10;
+	font-family: Helvetica;
+}
+
+#htext
+{
+	//color: coral;
+	position: relative;
+	float: left;
+	top: 50%;
+	padding-top: 4%;
+	padding-left: 15%;
+	font-family: Custom, Magneto;
+	font-size: 5.1vw;
+}
+
+h1
+{
+	font-family: Custom;
+	color: #990099;
+	
+}
+
+h2
+{
+	font-family: Custom;
+	color: #770077;
+}`
+
+.content
+{
+	color: #300030;
+	font-family: Tahoma, Arial, sans-serif;
+	margin-top:27%;
+	text-align: justify;
+	z-index: 1;
+	padding-top: 0%;
+	padding-bottom: 5%;
+	//background-color: pink;
+}
+
+#petr
+{
+	width: 16.5%;
+	border-radius: 25%;
+	position: relative;
+	float: right;
+	right: 18%;
+	vertical-align: middle;
+}
+
+#hdesc
+{
+	font-size: 1.1vw;
+	position: absolute;
+	padding-top: 9%;
+	padding-left: 17%;
+}
+
+#header p
+{
+	color: #D0F0C0;
+	color: #F3FFF5;
+	
+}
+
+#header a, #header a:visited
+{
+	color:#F3FFF5;
+}
+
+#header a:hover, #header a:visited:hover
+{
+	color:#D0F0C0;
+}
+
+
+#header a:active, #header a:visited:active
+{
+	color:#0000FF;
+}
+
+.footer
+{
+	position: -webkit-sticky;
+	position: sticky;
+	width:100%;
+	background-color: #004225;
+	z-index: -1;
+	height:10%;
+	color: #D0F0C0;
+}
+
+.hidden
+{
+	visibility: hidden;
+}
+
+dt
+{
+	padding-top: 1em;
+	font-weight: bold;
+	margin-bottom: -1.1em;
+}
+
+dd
+{
+	padding-left: 15%;
+}
+
+.odd
+{
+	width: 60%;
+	position: relative;
+	left: 18%;
+}
+
+.even
+{
+	width: 60%;
+	position: relative;
+	background-color: #B0F0C0;
+	padding-left: 18%;
+	padding-top: 0.1em;
+	padding-bottom: 0.3em;
+	padding-right: 6%;
+}
+
+.even2
+{
+	width: 60%;
+	position: relative;
+	background-color: #B0F0C0;
+	padding-left: 2%;
+	margin-left: 16%;
+	padding-right:22%;
+	padding-top: 0.1em;
+	padding-bottom: 0.3em;
+}
