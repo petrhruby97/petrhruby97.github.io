@@ -5,16 +5,16 @@
 
 body
 {
-	background-color: #F3FFF5;
+	//background-color: #F3FFF5;
 	border: 0px;
 	margin: 0px;
 }
 
 #header
 {
-//	background-color: #004225;
+	background-color: #004225;
 //	color: #D0F0C0;
-	background-color: #00A86B;
+//	background-color: #00A86B;
 	color: #BB0099;
 	width: 100%;
 	margin: 0px;
@@ -31,19 +31,22 @@ body
 #htext
 {
 	//color: coral;
+	color: lime;
 	position: relative;
 	float: left;
 	top: 50%;
-	padding-top: 4%;
+	padding-top: 2%;
 	padding-left: 15%;
 	font-family: Custom, Magneto;
-	font-size: 5.1vw;
+	//font-size: 5.1vw;
+	font-size: 4.1vw;
 }
 
 h1
 {
 	font-family: Custom;
-	color: #990099;
+	//color: #990099;
+	color: #004225;
 	
 }
 
@@ -56,19 +59,21 @@ h2
 
 .content
 {
-	color: #300030;
+	//color: #300030;
 	font-family: Tahoma, Arial, sans-serif;
-	margin-top:27%;
+	margin-top: 18%;
 	text-align: justify;
 	z-index: 1;
 	padding-top: 0%;
-	padding-bottom: 9.5%;
+	padding-bottom: 22.5%;
+	margin-bottom: 11%;
 	//background-color: pink;
 }
 
 #petr
 {
-	width: 16.5%;
+	//width: 16.5%;
+	width: 10.5%;
 	border-radius: 25%;
 	position: relative;
 	float: right;
@@ -78,10 +83,10 @@ h2
 
 #hdesc
 {
-	font-size: 1.1vw;
+	font-size: 1.0vw;
 	position: absolute;
-	padding-top: 9%;
-	padding-left: 17%;
+	padding-top: 6.4%;
+	padding-left: 14%;
 }
 
 #header p
@@ -93,7 +98,9 @@ h2
 
 a, a:visited
 {
-	color:#4400AA;
+	//color:#4400AA;
+	//color:#000000;
+	color:#004225;
 }
 
 a:hover, a:visited:hover
@@ -184,14 +191,16 @@ dd
 {
 	left: 2%;
 	position: relative;
-	width: 60%;
+	width: 70%;
 	float: left;
+	margin-bottom: 1.7em;
 }
 
 #paper_text p
 {
 	margin-bottom: 0.5em;
 	margin-top: 0em;
+	//margin-bottom: 0.7em;
 }
 
 #paper_text h2
@@ -201,8 +210,8 @@ dd
 
 #paper_img
 {
-	//width: 16.5%;
-	height: 8em;
+	//width: 8.6em;
+	height: 6.6em;
 	padding-top: 1em;
 	position: relative;
 	float: right;
